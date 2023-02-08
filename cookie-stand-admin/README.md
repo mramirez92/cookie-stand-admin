@@ -1,3 +1,16 @@
+# LAB - Class 37
+## Project: Lab: Welcome to React, Next.js & TailwindCSS
+Author: Monica Ramirez
+
+# Links and Resources
+[Tailwind](https://tailwindcss.com/docs/guides/nextjs)
+
+
+# Description 
+This is a project is an introduction into Next.js by creatinga Cookie Stand Admin app using Next.js and style using Tailwind CSS.
+
+# Setup
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
