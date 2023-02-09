@@ -1,4 +1,5 @@
-# LAB - Class 37/38
+# LAB - Cookie Stand Admin
+<sup>Lab 37,38</sup>
 ## Project: Lab: Welcome to React, Next.js & TailwindCSS
 Author: Monica Ramirez
 
@@ -8,7 +9,9 @@ Author: Monica Ramirez
 
 # Description 
 This is a project is an introduction into Next.js by creatinga Cookie Stand Admin app using Next.js and style using Tailwind CSS.
-Lab: 38
+
+Lab 38:
+
 I refactored my Next.js functional components to make them more concise and optimized for better performance. A table was added with static data. 
 
 # Setup
