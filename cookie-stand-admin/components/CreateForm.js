@@ -1,7 +1,7 @@
-import React from 'react';
-import { useState } from 'react';
+import ReportTable from "./ReportTable";
+import { useState } from "react";
 
-function StandForm() {
+export default function CreateForm() {
   const [locationInfo, setLocationInfo] = useState([])
   function inputHandler(event) {
     event.preventDefault();
@@ -37,25 +37,11 @@ function StandForm() {
             <label className='flex w1/2 p-2 mx-auto text-lg '>Average cookie Sales</label>
             <input name='avgCookies' className='flex-auto pl-1 shadow-inner focus:outline-none focus:ring focus:border-blue-500/75 rounded-md'></input>
           </fieldset>
-          <button className='basis-1/4 p-2 rounded-2xl text-lg w-3/4 transition ease-in-out delay-150  bg-cyan-500 hover:-translate-y-1 hover:scale-105 hover:bg-amber-400 duration-300'>Add Location</button>
+          <button className='basis-1/4 p-2 rounded-2xl text-lg w-3/4 transition ease-in-out delay-150  bg-cyan-500 hover:-translate-y-1 hover:scale-105 hover:bg-amber-400 hover:font-semibold duration-300 '>Add Location</button>
           {/* <button className='basis-1/4 bg-cyan-500 rounded-2xl text-lg w-full hover:bg-sky-700'>Add Location</button> */}
         </div>
       </form>
-      <div className='flex justify-center flex-col'>
-        <p className='flex justify-center basis-1 p-2'>Report Table Coming Soon...</p>
-        <div className='flex justify-center basis-1 p-2'>
-          {locationInfo.map((cookieStand, idx) => {
-            return (
-              <p key={idx}>
-                {JSON.stringify({ cookieStand })}
-              </p>
-            )
-          })}
-        </div>
-      </div>
-
+      <ReportTable locationInfo ={locationInfo}/>
     </>
   )
 }
-
-export default StandForm;
