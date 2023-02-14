@@ -13,7 +13,7 @@ export default function LoginForm({ onLogin }) {
           <fieldset autoComplete='off'>
               <legend>Log In</legend>
               <label className="pt-8" htmlFor="username">Username</label>
-              <input className="w-3/4 p-2 mt-2 rounded-m" name="username" type="text" placeholder="user name" />
+              <input className="w-3/4 p-2 mt-2 rounded-m" name="username" type="username" placeholder="user name" />
               <label className="pt-8" htmlFor="password">Password</label>
               <input className="w-3/4 p-2 mt-2 rounded-m" type="password" name="password" placeholder="password" />
               <button className="block w-full p-4 mx-auto mt-12 rounded bg-cyan-500">Log In</button>
