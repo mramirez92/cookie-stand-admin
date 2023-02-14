@@ -12,8 +12,9 @@ export default function CookieStandForm() {
     
     const cookieStand = {
       location: event.target.location.value,
-      minimum_customers_per_hour: event.target.minimum_customers_per_hour.value,
-      maximum_customers_per_hour: event.target.average_cookies_per_sale.value,
+      minimum_customers_per_hour: parseInt(event.target.minimum_customers_per_hour.value),
+      maximum_customers_per_hour: parseInt(event.target.average_cookies_per_sale.value),
+      average_cookies_per_sale: parseFloat(event.target.average_cookies_per_sale.value),
       owner: user.id,
     }
     createResource(cookieStand)
