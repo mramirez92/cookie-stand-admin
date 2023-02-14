@@ -31,7 +31,7 @@ export function AuthProvider(props) {
             body: JSON.stringify({username, password}),
             headers: {'Content-Type': 'application/json'},
         };
-
+        console.log(options, tokenUrl)
         const response = await fetch(tokenUrl, options);
 
         const data = await response.json();
