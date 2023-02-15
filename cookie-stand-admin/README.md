@@ -1,21 +1,26 @@
-# LAB - Cookie Stand Admin
-<sup>Lab 37,38</sup>
-## Project: Lab: Welcome to React, Next.js & TailwindCSS
+# LAB - 37, 38, 39, 41
+
+## Project: Cookie Stand Admin with API Implementation
 Author: Monica Ramirez
 
 # Links and Resources
+
+[Hosted on Vercel](https://vercel.com/)
+
+[Elephant SQL](https://www.elephantsql.com/)
+
 [Tailwind](https://tailwindcss.com/docs/guides/nextjs)
 
 
 # Description 
-This is a project is an introduction into Next.js by creatinga Cookie Stand Admin app using Next.js and style using Tailwind CSS. An API has been implemented to populate table data with creation, deletion of cookie stands. 
-
-Lab 38:
-
-I refactored my Next.js functional components to make them more concise and optimized for better performance. A table was added with static data.
-Update: 2/13/2023 Web app is now connected to an API [Cookie Stand API](https://github.com/mramirez92/cookie-stand-api)
+This is a project is an introduction into Next.js by creating Cookie Stand Admin app using Next.js and style using Tailwind CSS. This project was built overtime. Starting out a simple local Next.js app, to evolving into a fully intergrated app thats connected to an API. The API is used to populate the table data with creation and deletion of cookie stands. User authorization has also been implemented. The database is hosted on Elephant SQL.
 
 # Setup
-`npm run dev` to launch web app, cookie stand api must be ran in conjuction to web app in order to access cookie stand database. 
-## Getting Started
+
+Deployed Website: https://cookie-stand-admin-front.vercel.app/
+
+User: Tester
+
+Pass: password
+
 
